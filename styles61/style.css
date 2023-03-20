@@ -1,0 +1,81 @@
+h1 {
+    color: #eb98cf;
+    font-weight:700;
+    font-size: 95px;
+    border-bottom: dotted #ae31ac;
+    border-bottom-width: 20px;
+}
+.job-title{ transform: translateX(30px);
+    color: gray;
+    font-weight:700;
+    font-size: 50px;
+    font-family: "Gill Sans", sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: gray;
+    font-family: "Gill Sans", sans-serif;
+}
+h2, h4, h6{transform: translateX(30px);
+    font-style:italic;
+    font-weight:700;
+    font-size: 300%;
+    font-family: "Gill Sans", sans-serif;
+}    
+ul{
+    width: 920px;
+  padding: 10px;
+  border: 5px solid palevioletred;
+  margin: 0;
+  background-color: rgb(223, 218, 218);
+}
+.wrap {
+    height: 1000px;
+    width: 990px;
+    border: solid #aaa;
+    margin: 100px;
+  }
+p, ul{transform: translateX(30px);
+    font-size: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+li{
+    transform: translateX(40px);
+}
+.wrap2 {transform: rotateX(45deg);
+    height: 1000px;
+    width: 990px;
+    border: solid #aaa;
+    margin: 100px;
+  }
+.wrap3 {transform: scaleX(0.6);
+    transform: perspective(23rem);
+    height: 1000px;
+    width: 990px;
+    border: solid #aaa;
+    margin: 100px;
+  }
+.wrap4 {transform: skewY(10deg);
+    height: 1000px;
+    width: 990px;
+    border: solid #aaa;
+    margin: 100px;
+}
+.wrap5 {width: calc(500px + 250px);
+    height: calc(1000px+300px);
+    border: solid #aaa;
+    margin: 100px;
+}
+.wrap6 {width: max(50vw, 800px); 
+    height: 1300px;
+    border: solid #aaa;
+    margin: 100px;
+}
+.wrap7 {
+    height: 1000px;
+    width: 990px;
+    border: solid #aaa;
+    margin: 100px;
+}
+#svg_css_ex1:hover path {
+    display: path("M20,80 L50,20 L80,80");
+}

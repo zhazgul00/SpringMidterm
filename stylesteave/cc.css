@@ -1,0 +1,42 @@
+#img{
+    text-align: center; 
+}
+html{
+    background-color:#c2dbed ;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 20px 20px 20px;
+    background-color:#c2dbed;
+    border: px solid black;
+}
+h1{
+    text-align: center;
+    color: #031145;
+    width: 660px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid #4d056b;
+}
+h2{
+    text-align: center;
+    color: #4d056b;
+}
+#td {
+    font-style: oblique
+
+}
+#st{
+    color: #4d056b;
+}
+#if{
+    color: #2c7802;
+    font: italic 1.2em "Fira Sans", serif;
+    font-size: 30px;
+}
+ol.pointer {
+    cursor: pointer;
+    }

@@ -1,0 +1,31 @@
+h1{
+    color:blue;
+    text-shadow: 3px 2px 2px black;
+}
+.myclass{
+    color:purple;
+}
+a:hover{
+    color:red;
+    ;
+}
+img[src="https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png"] {
+    width: 300px; }
+#img {
+    text-align: center;
+}
+html{
+    background-color: #093e94;
+}
+body{
+    width: 1000px;
+    margin: 110px 110px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: #c98b2e;
+    border: 5px solid black;
+}
+p{
+    text-align: left;
+}

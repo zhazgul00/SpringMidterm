@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+#my{
+  color: #285c07;
+  position: relative;
+  top: 20px
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.header h1 {
+  color: #285c07;
+    font-weight:700;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #407056,
+             1px 2px 1px #407056,
+             1px 3px 1px #407056,
+             1px 4px 1px #407056,
+             1px 5px 1px #407056,
+             1px 6px 1px #407056,
+             1px 10px 5px rgba(16, 16, 16, 0.5),
+             1px 15px 10px rgba(16, 16, 16, 0.4),
+             1px 20px 30px rgba(16, 16, 16, 0.3),
+             1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+table{ 
+  position: absolute;
+  top: 60% ;
+  border:solid black;
+}
+td,th{
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(3, 71, 34);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  height: 800px;
+
+}
+
+.footer {
+  padding: 20px;
+  text-align:left;
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Portfolio</h1>
+  <p>A <b>responsive</b> website created by me.</p>
+</div>
+
+<div class="navbar">
+    <a href="#my">About myself</a>
+    <a href="#resume">Resume</a>
+    <a href="works.html">Works</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="#con">Contacts</a>
+  </ul> 
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 id="my">About Me</h2>
+  
+    <table>
+      <tr>
+        <td>Name, surname</td>
+        <td>Zhazgul Ablakeeva</td>
+      </tr>
+      <tr>
+          <td>Student №</td>
+          <td>220102009</td>
+        </tr>
+      <tr>
+        <td>Birth date</td>
+        <td>09-MAR-05</td>
+      </tr>
+      <tr>
+        <td>Program / Class</td>
+        <td>Applied Mathematics</td>
+      </tr>
+      <tr>
+        <td>Advisor</td>
+        <td>Husein Chepsi</td>
+      </tr>
+      <tr>
+        <td>ORT exam score</td>
+        <td>192</td>
+      </tr>
+    </table>
+  </div>
+  <div class="main">
+    <style>
+      
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+  
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+  
+header {
+	background-color:rgb(3, 62, 16);
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	height:200px;
+  
+}
+  
+.profile-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+}
+  
+h1 {
+	font-size: 36px;
+	margin-top: 70px;
+}
+h4 {
+       color: #285c07;
+       font-weight:700;
+       font-size: 95px;
+       text-align: center;
+   }  
+    </style>
+    <div id="resume">
+      <h4>CV / Resume</h4>
+    <header>
+			<img src="photoresume.jpg" alt="My Photo" class="profile-img">
+			<h1>Zhazgul Ablakeeva</h1>
+			<h2>Web Developer</h2>
+		</header>
+    <div style="position: relative; left: 20px;">
+		<section id="about-me">
+			<h3>About Me</h3>
+			<p>I’m responsible, proactive, resilient, communicative, honest. My strengths are good managerial and leadership skills, customer focus, system thinking, positive attitude.I used to act independently and without interference, although I like working as a team, to be creative in solving problems. I prefer constructive, intellectual discussions with colleagues. I know how to follow rules and standards, and I want people to do the same.</p>
+		</section>
+		<section id="education">
+			<h3>Education</h3>
+			<ul>
+				<li>Gymnasium of A. Osmonov 2011-2022</li>
+        <li>Ala-Too Introdoction University 2022-nowadays</li>
+			</ul>
+		</section>
+		<section id="skills">
+			<h3>The programming languages I’m currently learning </h3>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Python</li>
+				<li>C#</li>
+			</ul>
+      </section>
+    </div>
+    </div>  
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2 id="con">Contacts:</h2>
+  <div class="contacts">
+     <p>Email: <a href="mailto:jazgul09.03@gmail.com">jazgul09.03@gmail.com</a></p>
+          <p>GitHub: <a href="https://github.com/Zhazgul00">https://github.com/Zhazgul00</a></p>
+          <p>Tel: <a href="tel:+996554282577">+996554282577</a></p>
+    
+  </div>
+</div>
+
+</body>
+</html>
